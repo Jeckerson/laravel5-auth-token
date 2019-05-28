@@ -41,6 +41,6 @@ class AuthTokenManager extends Manager {
   }
 
   public function getDefaultDriver() {
-    return 'cache';
+    return 'database';
   }
 }
