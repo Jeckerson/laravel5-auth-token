@@ -1,0 +1,30 @@
+{
+    "name": "luimiruiz/laravel-auth-token",
+    "description": "",
+    "authors": [
+        {
+            "name": "Terry Appleby",
+            "email": "terry.appleby@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~5.0"
+    },
+
+    "require-dev": {
+      "mockery/mockery": "0.9.*",
+      "phpunit/phpunit": "3.7.*"
+    },
+
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Tappleby\\AuthToken": "src/",
+            "Tappleby\\Support": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
