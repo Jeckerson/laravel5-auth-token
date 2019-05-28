@@ -1,12 +1,6 @@
 {
-    "name": "luimiruiz/laravel-auth-token",
+    "name": "jeckerson/laravel5-auth-token",
     "description": "",
-    "authors": [
-        {
-            "name": "Terry Appleby",
-            "email": "terry.appleby@gmail.com"
-        }
-    ],
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "~5.0"
